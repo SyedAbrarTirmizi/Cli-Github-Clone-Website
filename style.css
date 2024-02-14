@@ -10,5 +10,27 @@ body {
 }
 /* Navbar */
 nav {
-
+display: flex;
+justify-content: space-between;
+padding: 15px;
+}
+nav > .left-nav > a {
+  text-decoration: none;
+  color: #e4ebf1;
+}
+.right-nav > ul > li > a {
+  text-decoration: none;
+  color: #e4ebf1;
+}
+.right-nav > ul > li {
+  list-style-type: none;
+}
+.left-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.right-nav > ul {
+  display: flex;
+gap: 2rem;
 }
