@@ -122,10 +122,13 @@ main {
 .section1 > a {
   text-decoration: none;
   color: #e4ebf1;
+  font-weight: 700;
+  padding-bottom: 4rem;
+  font-size: 1.20rem;
 }
 .section1 > img {
-  height: 480px;
-  width: 1025px;
+  height: 400px;
+  width: 800px;
 }
 /* Section2 */
 .section2 {
@@ -151,4 +154,8 @@ main {
 .box-a {
   text-decoration: none;
   font-size: 0.7rem;
+}
+/* Section3 */
+.section3 > img {
+  height: 400px;
 }
