@@ -9,10 +9,11 @@
   --padding-inline-section: 20px;
 }
 body {
-  font-family: "Roboto", "Poppins", sans-serif;
+  font-family: "Poppins", "Roboto", sans-serif;
 }
 .hover-link:hover {
   text-decoration: underline;
+  transition: 0.2s ease-out;
 }
 /* utility clases */
 .container {
@@ -28,7 +29,7 @@ body {
 nav {
   justify-content: space-between;
   padding: 20px;
-  background-color: black;
+  background-color: #0d1117;
 }
 nav > .left-nav > a {
   text-decoration: none;
@@ -54,7 +55,7 @@ nav > .left-nav > a {
 }
 /* Mainbar */
 main {
-  background-color: black;
+  background-color: #0d1117;
   flex-direction: column;
   gap: 2rem;
   padding: 3rem;
@@ -64,39 +65,90 @@ main {
   gap: 1rem;
   align-items: flex-start;
   flex-wrap: wrap;
-  
 }
 .main-text > h1 {
-  font-family: "Poppins";
+  font-family: "Poppins", "Roboto";
   font-weight: 900;
+  font-size: 3rem;
   color: white;
-  width: 20rem;
+  width: 30rem;
 }
 .main-text > p {
-  font-family: "Poppins";
+  font-family: "Poppins", "Roboto";
   font-weight: 400;
-  color: #e4ebf1;
-  width: 30rem;
+  font-size: 1.05rem;
+  color: #6e7681;
+  width: 50rem;
 }
 .main-button {
   flex-direction: column;
   gap: 1rem;
   align-items: flex-start;
-  padding-right: 17rem;
+  padding-right: 40rem;
+  font-size: 0.75rem;
 }
 .main-button > a {
   text-decoration: none;
 }
 .button {
   color: black;
-  font-family: "Poppins";
+  font-family: "Poppins", "Roboto";
   font-weight: 400;
   background-color: white;
   border: 1rem solid white;
   border-radius: 0.85rem;
 }
 .info {
-  font-family: "Poppins";
+  font-family: "Poppins", "Roboto";
   font-weight: 400;
   color: white;
+}
+.button:hover {
+  box-shadow: 0px 0px 80px 0px rgba(255, 255, 255, 0.45);
+  transition: 0.2s ease-out;
+}
+/* Section1 */
+.section1 {
+  gap: 2rem;
+  flex-direction: column;
+  background-color: #0d1117;
+  background-image: url(./images/asset\ 13.svg);
+  background-size: contain;
+}
+.section1 > span {
+  color: #e4ebf1;
+  font-family: "Poppins", "Roboto";
+}
+.section1 > a {
+  text-decoration: none;
+  color: #e4ebf1;
+}
+.section1 > img {
+  height: 480px;
+  width: 1025px;
+}
+/* Section2 */
+.section2 {
+  flex-direction: column;
+  gap: 3rem;
+  padding: 5rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.sec-heading {
+  font-family: "Poppins", "Roboto";
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.section-boxes {
+  gap: 2rem;
+  align-items: baseline;
+}
+.box-text {
+  font-size: 0.85rem;
+  color: #6e7681;
+}
+.box-a {
+  text-decoration: none;
+  font-size: 0.7rem;
 }
