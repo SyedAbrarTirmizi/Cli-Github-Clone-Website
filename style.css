@@ -53,7 +53,7 @@ nav > .left-nav > a {
 .fa-brands {
   font-size: 2rem;
 }
-/* Mainbar */
+/* Header */
 main {
   background-color: #0d1117;
   flex-direction: column;
@@ -168,13 +168,13 @@ img {
   right: -45rem;
   font-size: 1.5rem;
 }
-.card-text{
+.card-text {
   padding-left: 2rem;
-    padding-right: 3rem;
-    margin-top: 2rem;
-    color: white;
-    font-family: monospace;
-    font-size: 1rem;
+  padding-right: 3rem;
+  margin-top: 2rem;
+  color: white;
+  font-family: monospace;
+  font-size: 1rem;
 }
 .quiz {
   color: green;
@@ -190,7 +190,6 @@ img {
   color: #e4ebf1;
   font-weight: 700;
   font-size: 1.2rem;
-
 }
 /* Section2 */
 .section2 {
@@ -218,6 +217,52 @@ img {
   font-size: 0.7rem;
 }
 /* Section3 */
-.section3 > img {
-  height: 400px;
+.section3 {
+  background-image: url(./images/asset\ 3.png);
+  background-position: center;
+  background-size: cover;
+  height: 530px;
+}
+.sec3-shadow {
+  height: 18rem;
+  position: absolute;
+  margin-left: 35rem;
+  width: 40rem;
+  margin-top: 7rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: white;
+}
+.sec3-card {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  height: 18rem;
+  padding: 3rem;
+}
+.sec3-card > h2 {
+  font-family: "Poppins", "Roboto";
+  font-size: 2rem;
+}
+.sec3-card > p {
+  font-family: "Poppins", "Roboto";
+  font-weight: 400;
+  font-size: 1.05rem;
+  color: #6e7681;
+}
+.sec3-card > a {
+  text-decoration: none;
+}
+.card-button {
+  color: white;
+  font-family: "Poppins", "Roboto";
+  font-weight: 700;
+  font-size: 0.85rem;
+  background-color: black;
+  border: 1rem solid black;
+  border-radius: 0.3rem;
+}
+.card-info {
+  font-family: "Poppins", "Roboto";
+  font-weight: 400;
 }
