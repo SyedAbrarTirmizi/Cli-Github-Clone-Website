@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   /* Navbar */
   nav {
     gap: 2rem !important;
@@ -126,7 +126,7 @@
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 500px) and(max-width: 1080px) {
   /* Navbar */
   nav {
     gap: 2rem !important;
