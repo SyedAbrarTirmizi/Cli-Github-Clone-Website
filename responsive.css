@@ -1,4 +1,145 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
+  /* Navbar */
+  nav {
+    gap: 2rem !important;
+    padding: 0.85rem !important;
+  }
+  .left-nav {
+    padding-left: 0.85rem !important;
+  }
+  .right-nav > ul {
+    gap: 0.85rem !important;
+    padding-right: 1rem !important;
+  }
+  .right-nav > ul > li {
+    font-size: 0.85rem !important;
+  }
+  /* Header */
+  main {
+    flex-wrap: wrap !important;
+    gap: 1rem !important;
+    padding: 0.85rem !important;
+  }
+  .main-text {
+    width: 13rem !important;
+  }
+  .main-text > h1 {
+    font-weight: 700 !important;
+    font-size: 2rem !important;
+    width: 13rem !important;
+  }
+  .main-text > p {
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    width: 13rem !important;
+  }
+  .main-button {
+    padding-right: 0rem !important;
+    text-align: center;
+  }
+  .button {
+    width: 12.5rem !important;
+    font-size: 0.85rem !important;
+  }
+  .info {
+    font-size: 1rem;
+  }
+  /* Section1 */
+  .sec1-box {
+    margin-left: 1rem !important;
+  }
+  .typing {
+    text-align: start !important;
+    width: 15rem !important;
+  }
+  .typing > img {
+    padding-left: 5rem !important;
+    width: 14rem;
+  }
+  .sec1-text {
+    width: 13.5rem !important;
+  }
+  .black-card {
+    height: 23rem !important;
+    width: 13.5rem !important;
+  }
+  .fa-circle-play {
+    right: -8.5rem !important;
+  }
+  .card-text {
+    padding-left: 0rem !important;
+    font-size: 0.70rem !important;
+    width: 13rem;
+    padding-right: 0rem !important;
+    line-height: 3;
+    margin-left: 1rem;
+  }
+  /* Section2 */
+  .section2 {
+    padding: 3rem !important;
+    margin-left: 1.5rem !important;
+  }
+  .sec-heading {
+    font-size: 2rem !important;
+    margin-left: 4rem;
+  }
+  .section-boxes {
+    flex-direction: column;
+    padding-left: 5rem;
+  }
+  .boxes {
+    width: 13rem !important;
+  }
+  /* Section3 */
+  .section3 {
+    height: 35rem !important;
+    width: 15rem;
+  }
+  .sec3-shadow {
+    height: 25rem !important;
+    margin-left: 0.85rem !important;
+    width: 12rem !important;
+  }
+  .sec3-card {
+    height: 17rem !important;
+    width: 10rem;
+    font-size: 0.485rem;
+  }
+  .card-button {
+    font-weight: 400 !important;
+    font-size: 0.55rem !important;
+    border: 0.85rem solid black !important;
+    width: 6rem;
+  }
+  /* Footer */
+  .heading {
+    width: 15rem;
+  }
 
-  
+  footer {
+    padding: 1rem !important;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  /* Sub-Footer */
+  .sub-footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 640px) {
+    /* Navbar */
+  nav {
+    gap: 2rem !important;
+    padding: 0.85rem !important;
+  }
+  .left-nav {
+    padding-left: 0.85rem !important;
+  }
+  .right-nav > ul {
+    gap: 0.85rem !important;
+    padding-right: 1rem !important;
+  }
+  .right-nav > ul > li {
+    font-size: 0.85rem !important;
+  }
 }
