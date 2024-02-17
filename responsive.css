@@ -68,7 +68,7 @@
   }
   .card-text {
     padding-left: 0rem !important;
-    font-size: 0.70rem !important;
+    font-size: 0.7rem !important;
     width: 13rem;
     padding-right: 0rem !important;
     line-height: 3;
@@ -127,7 +127,7 @@
   }
 }
 @media screen and (max-width: 640px) {
-    /* Navbar */
+  /* Navbar */
   nav {
     gap: 2rem !important;
     padding: 0.85rem !important;
