@@ -29,17 +29,17 @@ nav {
   background-color: #0d1117;
 }
 
-nav>.left-nav>a {
+nav > .left-nav > a {
   text-decoration: none;
   color: #e4ebf1;
 }
 
-.right-nav>ul>li>a {
+.right-nav > ul > li > a {
   text-decoration: none;
   color: #e4ebf1;
 }
 
-.right-nav>ul>li {
+.right-nav > ul > li {
   list-style-type: none;
 }
 
@@ -48,7 +48,7 @@ nav>.left-nav>a {
   padding-left: 1.5rem;
 }
 
-.right-nav>ul {
+.right-nav > ul {
   gap: 2rem;
   padding-right: 1.5rem;
 }
@@ -72,7 +72,7 @@ main {
   flex-wrap: wrap;
 }
 
-.main-text>h1 {
+.main-text > h1 {
   font-family: "Poppins", "Roboto";
   font-weight: 900;
   font-size: 3rem;
@@ -80,7 +80,7 @@ main {
   width: 30rem;
 }
 
-.main-text>p {
+.main-text > p {
   font-family: "Poppins", "Roboto";
   font-weight: 400;
   font-size: 1.05rem;
@@ -96,7 +96,7 @@ main {
   font-size: 0.75rem;
 }
 
-.main-button>a {
+.main-button > a {
   text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ main {
   width: 50rem;
 }
 
-.typing>img {
+.typing > img {
   display: block;
   padding-left: 14rem;
 }
@@ -214,7 +214,7 @@ main {
   text-align: center;
 }
 
-.sec1-link>a {
+.sec1-link > a {
   text-decoration: none;
   color: #e4ebf1;
   font-weight: 700;
@@ -283,19 +283,19 @@ main {
   padding: 3rem;
 }
 
-.sec3-card>h3 {
+.sec3-card > h3 {
   font-family: "Poppins", "Roboto";
   font-size: 1.5rem;
 }
 
-.sec3-card>p {
+.sec3-card > p {
   font-family: "Poppins", "Roboto";
   font-weight: 400;
   font-size: 1.05rem;
   color: #6e7681;
 }
 
-.sec3-card>a {
+.sec3-card > a {
   text-decoration: none;
 }
 
@@ -326,11 +326,11 @@ footer {
   padding: 5rem;
 }
 
-.footer-pages>li {
+.footer-pages > li {
   list-style-type: none;
 }
 
-.footer-pages>li>a {
+.footer-pages > li > a {
   text-decoration: none;
   color: #6e7781;
   font-family: "Roboto", "Poppins";
@@ -338,7 +338,7 @@ footer {
   line-height: 2rem !important;
 }
 
-.footer-list>h4 {
+.footer-list > h4 {
   font-weight: 400;
   font-family: "Roboto", "Poppins";
   padding-bottom: 1rem;
@@ -351,7 +351,7 @@ footer {
   height: 4rem;
 }
 
-.sub-footer-link>a {
+.sub-footer-link > a {
   text-decoration: none;
   color: #6e7781;
   font-family: "Roboto", "Poppins";
