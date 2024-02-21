@@ -76,15 +76,15 @@
     margin-top: 0rem;
   }
   .black-card {
-    height: 23rem ;
-    width: 13.5rem ;
+    height: 23rem;
+    width: 13.5rem;
   }
   .fa-circle-play {
-    right: -8.5rem ;
+    right: -8.5rem;
   }
   .card-text {
-    padding-left: 0rem ;
-    font-size: 0.7rem ;
+    padding-left: 0rem;
+    font-size: 0.7rem;
     width: 13rem;
     padding-right: 0rem;
     line-height: 3;
@@ -92,11 +92,11 @@
   }
   /* Section2 */
   .section2 {
-    padding: 3rem ;
-    margin-left: 1.5rem ;
+    padding: 3rem;
+    margin-left: 1.5rem;
   }
   .sec-heading {
-    font-size: 2rem ;
+    font-size: 2rem;
     margin-left: 4rem;
   }
   .section-boxes {
@@ -104,27 +104,27 @@
     padding-left: 5rem;
   }
   .boxes {
-    width: 13rem ;
+    width: 13rem;
   }
   /* Section3 */
   .section3 {
-    height: 35rem ;
+    height: 35rem;
     width: 15rem;
   }
   .sec3-shadow {
-    height: 25rem ;
-    margin-left: 0.85rem ;
-    width: 12rem ;
+    height: 25rem;
+    margin-left: 0.85rem;
+    width: 12rem;
   }
   .sec3-card {
-    height: 17rem ;
+    height: 17rem;
     width: 10rem;
     font-size: 0.485rem;
   }
   .card-button {
-    font-weight: 400 ;
-    font-size: 0.55rem ;
-    border: 0.85rem solid black ;
+    font-weight: 400;
+    font-size: 0.55rem;
+    border: 0.85rem solid black;
     width: 6rem;
   }
   /* Footer */
@@ -133,7 +133,7 @@
   }
 
   footer {
-    padding: 1rem ;
+    padding: 1rem;
     flex-wrap: wrap;
     gap: 2rem;
   }
@@ -143,8 +143,8 @@
   }
 }
 /* @media screen and (min-width: 500px) and(max-width: 1080px) { */
-  /* Navbar */
-  /* nav {
+/* Navbar */
+/* nav {
     gap: 2rem ;
     padding: 0.85rem ;
   }
